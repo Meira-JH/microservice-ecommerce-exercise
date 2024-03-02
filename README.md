@@ -1,6 +1,6 @@
 # microservice-ecommerce-exercise
 
-Exercise of Microservice Architecture for Infnet's **Postgraduate Course of Software Architecture**.
+Exercise of Microservice Architecture for Infnet's **Software Architecture Postgraduate Course**.
 
 This project uses Spring Framework and was built through Spring Initializr.
 For more information: https://start.spring.io/
