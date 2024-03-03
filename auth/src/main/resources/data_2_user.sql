@@ -1,0 +1,1 @@
+INSERT INTO "user" (name, email, company_id) values ('Joao Meira', 'email@email.com', 1);
