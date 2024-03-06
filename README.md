@@ -12,3 +12,9 @@ java 17
 
 ## Architecture overview
 This system was structured using C4 models. The diagrams stand below:
+
+### Microservices:
+- Eureka server: responsible for managing requests between Java microservices
+- Auth: responsible for registration CRUD operations
+- Product: responsible for product CRUD operations
+- Order: responsible for order CRUD operations
