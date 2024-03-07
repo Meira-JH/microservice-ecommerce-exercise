@@ -1,3 +1,3 @@
-INSERT INTO product (name) VALUES ('Produto 1');
-INSERT INTO product (name) VALUES ('Produto 2');
-INSERT INTO product (name) VALUES ('Produto 3');
+INSERT INTO product (name, price) VALUES ('Produto 1', 9.99);
+INSERT INTO product (name, price) VALUES ('Produto 2', 11.98);
+INSERT INTO product (name, price) VALUES ('Produto 3', 13.46);

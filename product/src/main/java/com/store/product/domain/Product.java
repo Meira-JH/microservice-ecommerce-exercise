@@ -24,4 +24,11 @@ public class Product {
 
     @Column(name = "name")
     private String name;
+
+    @Column(name = "price")
+    private Double price;
+
+    public void setId(Long id){
+        this.id = id;
+    }
 }
