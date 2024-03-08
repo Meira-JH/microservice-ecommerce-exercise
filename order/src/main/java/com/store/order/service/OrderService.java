@@ -4,6 +4,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import com.store.order.domain.Order;
+import com.store.order.domain.OrderItem;
 import com.store.order.repository.OrderItemRepository;
 import com.store.order.repository.OrderRepository;
 import com.store.order.service.interfaces.OrderServiceInterface;
@@ -33,9 +34,9 @@ public class OrderService extends GenericService<Order, Long, OrderRepository> i
     }
 
     public Order createOrder(Order order) {
-        Order ord = repository.save(order);
 
-        return ord;
+        return  repository.save(order);
+
     }
 
     public void sendNotification(Order order) throws JsonProcessingException {
